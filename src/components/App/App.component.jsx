@@ -10,9 +10,9 @@ const App = () => {
   return (
     <>
       <AppHeader />
-      <div style={ MainContent }>
+      <MainContent>
         <ProjectList />
-      </div>
+      </MainContent>
       <ProjectDeleteModal projectIdx={ idx } />
     </>
   );
