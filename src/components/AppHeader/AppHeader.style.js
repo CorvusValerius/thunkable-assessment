@@ -2,15 +2,16 @@ import styled from '@emotion/styled'
 import Beaver from '../../assets/ThunkableBeaver.png';
 import AddButtonIcon from '../../assets/AddButton.svg';
 import AddButtonIcon_Hover from '../../assets/AddButton_Hover.svg';
+import { Header } from 'antd/es/layout/layout';
 
-export const HeaderBar = {
-  position: 'fixed',
-  height: '124px',
-  width: '100%',
-  flexShrink: 0,
-  background: '#F7F9FD',
-  boxShadow: '0px -1px 4px 0px rgba(0, 0, 0, 0.20)'
-};
+export const HeaderBar = styled(Header)`
+  position: fixed;
+  height: 124px;
+  width: 100%;
+  flex-shrink: 0;
+  background: #F7F9FD;
+  box-shadow: 0px -1px 4px 0px rgba(0, 0, 0, 0.20);
+`
 
 export const BeaverIcon = styled.div`
   width: 54.634px;
